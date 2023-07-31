@@ -15,6 +15,6 @@ const userSchema = mongoose.Schema({
 }
 );
 
-const Task = mongoose.model("Usuario", userSchema);
+const User = mongoose.model("Usuario", userSchema);
 
 module.exports = User;
